@@ -7,7 +7,7 @@
 ###6.2.1工厂模式
 ###6.2.2构造函数模式
 
-function Person(name,age,job){
+        function Person(name,age,job){
         this.name = name;
         this.age = age;
         this.job = job;
