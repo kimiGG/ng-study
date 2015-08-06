@@ -30,7 +30,7 @@
            alert(this.name);
        };
       
-   #####  减少不必要是输入
+#####  减少不必要是输入
         
         
         function Person() {
