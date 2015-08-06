@@ -20,6 +20,29 @@
             person1.sayName();
             var person2 = new Person("linlin",20,"Doctor");
 ###6.2.3原型模式
+
+        function Person() {
+            }
+       Person.prototype.name ="lili";
+       Person.prototype.age="19";
+       Person.prototype.job = "engineer";
+       Person.prototype.sayName = function () {
+           alert(this.name);
+       };
+      
+   #####  减少不必要是输入
+        
+        
+        function Person() {
+            }
+        Person.prototype = {
+                name:"Nicholas",
+                age:29,
+                job:"engineer",
+                sayName: function(){
+                    alert(this.name);
+                }
+    };
 ###6.2.4组合使用构造函数模式和原型模式
 ###6.2.5动态原型模式
 ###6.2.6寄生构造函数模式
