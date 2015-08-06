@@ -7,3 +7,4 @@ angularjs
   * 二级圆
     * 三级<br/>
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"
